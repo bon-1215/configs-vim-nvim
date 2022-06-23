@@ -12,7 +12,9 @@ Plug 'christoomey/vim-tmux-navigator'	    "navegar entre archivos
 Plug 'mattn/emmet-vim'			            "emmet para estructuras
 Plug 'Yggdroot/indentline'                  "lineas de indentacion
 Plug 'alvan/vim-closetag'                   "cierre de etiquetas
-Plug 'sheerun/vim-polyglot'
+Plug 'honza/vim-snippets'                   " Configuraciones para code snippets
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 
 call plug#end() 			"cerramos el llamado de los plugins
  
